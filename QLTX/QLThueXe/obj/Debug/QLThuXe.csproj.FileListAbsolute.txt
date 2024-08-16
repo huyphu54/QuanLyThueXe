@@ -1,0 +1,133 @@
+D:\OU_HK2_2023-2024\LTCSDL\QLThuXe\bin\Debug\QLThuXe.exe.config
+D:\OU_HK2_2023-2024\LTCSDL\QLThuXe\bin\Debug\QLThuXe.exe
+D:\OU_HK2_2023-2024\LTCSDL\QLThuXe\bin\Debug\QLThuXe.pdb
+D:\OU_HK2_2023-2024\LTCSDL\QLThuXe\bin\Debug\Guna.UI2.dll
+D:\OU_HK2_2023-2024\LTCSDL\QLThuXe\obj\Debug\QLThuXe.csproj.AssemblyReference.cache
+D:\OU_HK2_2023-2024\LTCSDL\QLThuXe\obj\Debug\QLThuXe.FMain.resources
+D:\OU_HK2_2023-2024\LTCSDL\QLThuXe\obj\Debug\QLThuXe.Properties.Resources.resources
+D:\OU_HK2_2023-2024\LTCSDL\QLThuXe\obj\Debug\QLThuXe.csproj.GenerateResource.cache
+D:\OU_HK2_2023-2024\LTCSDL\QLThuXe\obj\Debug\QLThuXe.csproj.CoreCompileInputs.cache
+D:\OU_HK2_2023-2024\LTCSDL\QLThuXe\obj\Debug\QLThuXe.csproj.CopyComplete
+D:\OU_HK2_2023-2024\LTCSDL\QLThuXe\obj\Debug\QLThuXe.exe
+D:\OU_HK2_2023-2024\LTCSDL\QLThuXe\obj\Debug\QLThuXe.pdb
+D:\OU_HK2_2023-2024\LTCSDL\QLThuXe\obj\Debug\QLThuXe.TimXe.resources
+D:\OU_HK2_2023-2024\LTCSDL\QLThuXe\obj\Debug\QLThuXe.UC_TrangChu.resources
+D:\OU_HK2_2023-2024\LTCSDL\QLThuXe\obj\Debug\QLThuXe.UC_DangNhap.resources
+D:\OU_HK2_2023-2024\AI\QLThuXe\bin\Debug\QLThuXe.exe.config
+D:\OU_HK2_2023-2024\AI\QLThuXe\bin\Debug\QLThuXe.exe
+D:\OU_HK2_2023-2024\AI\QLThuXe\bin\Debug\QLThuXe.pdb
+D:\OU_HK2_2023-2024\AI\QLThuXe\bin\Debug\Guna.UI2.dll
+D:\OU_HK2_2023-2024\AI\QLThuXe\obj\Debug\QLThuXe.csproj.AssemblyReference.cache
+D:\OU_HK2_2023-2024\AI\QLThuXe\obj\Debug\QLThuXe.FMain.resources
+D:\OU_HK2_2023-2024\AI\QLThuXe\obj\Debug\QLThuXe.UC_TrangChu.resources
+D:\OU_HK2_2023-2024\AI\QLThuXe\obj\Debug\QLThuXe.Properties.Resources.resources
+D:\OU_HK2_2023-2024\AI\QLThuXe\obj\Debug\QLThuXe.TimXe.resources
+D:\OU_HK2_2023-2024\AI\QLThuXe\obj\Debug\QLThuXe.csproj.GenerateResource.cache
+D:\OU_HK2_2023-2024\AI\QLThuXe\obj\Debug\QLThuXe.csproj.CoreCompileInputs.cache
+D:\OU_HK2_2023-2024\AI\QLThuXe\obj\Debug\QLThuXe.csproj.Up2Date
+D:\OU_HK2_2023-2024\AI\QLThuXe\obj\Debug\QLThuXe.exe
+D:\OU_HK2_2023-2024\AI\QLThuXe\obj\Debug\QLThuXe.pdb
+D:\OU_HK2_2023-2024\AI\QLThuXe\obj\Debug\QLThuXe.Login.resources
+D:\OU_HK2_2023-2024\AI\QLThuXe\obj\Debug\QLThuXe.ThueXe.resources
+D:\OU_HK2_2023-2024\AI\QLThueXe\obj\Debug\QLThuXe.csproj.AssemblyReference.cache
+D:\OU_HK2_2023-2024\AI\QLThueXe\obj\Debug\QLThuXe.exe
+D:\OU_HK2_2023-2024\AI\QLThueXe\obj\Debug\QLThuXe.pdb
+D:\OU_HK2_2023-2024\AI\QLThueXe\bin\Debug\QLThuXe.exe.config
+D:\OU_HK2_2023-2024\AI\QLThueXe\bin\Debug\QLThuXe.exe
+D:\OU_HK2_2023-2024\AI\QLThueXe\bin\Debug\QLThuXe.pdb
+D:\OU_HK2_2023-2024\AI\QLThueXe\bin\Debug\Guna.UI2.dll
+D:\OU_HK2_2023-2024\AI\QLThueXe\obj\Debug\QLThuXe.FMain.resources
+D:\OU_HK2_2023-2024\AI\QLThueXe\obj\Debug\QLThuXe.fTrangChu.resources
+D:\OU_HK2_2023-2024\AI\QLThueXe\obj\Debug\QLThuXe.Login.resources
+D:\OU_HK2_2023-2024\AI\QLThueXe\obj\Debug\QLThuXe.ThueXe.resources
+D:\OU_HK2_2023-2024\AI\QLThueXe\obj\Debug\QLThuXe.Properties.Resources.resources
+D:\OU_HK2_2023-2024\AI\QLThueXe\obj\Debug\QLThuXe.TimXe.resources
+D:\OU_HK2_2023-2024\AI\QLThueXe\obj\Debug\QLThuXe.csproj.GenerateResource.cache
+D:\OU_HK2_2023-2024\AI\QLThueXe\obj\Debug\QLThuXe.csproj.CoreCompileInputs.cache
+D:\OU_HK2_2023-2024\AI\QLThueXe\obj\Debug\QLThuXe.csproj.Up2Date
+C:\Users\use\Desktop\QLThueXe\QLThueXe\bin\Debug\QLThuXe.exe.config
+C:\Users\use\Desktop\QLThueXe\QLThueXe\bin\Debug\QLThuXe.exe
+C:\Users\use\Desktop\QLThueXe\QLThueXe\bin\Debug\QLThuXe.pdb
+C:\Users\use\Desktop\QLThueXe\QLThueXe\bin\Debug\Guna.UI2.dll
+C:\Users\use\Desktop\QLThueXe\QLThueXe\obj\Debug\QLThuXe.csproj.AssemblyReference.cache
+C:\Users\use\Desktop\QLThueXe\QLThueXe\obj\Debug\QLThuXe.FMain.resources
+C:\Users\use\Desktop\QLThueXe\QLThueXe\obj\Debug\QLThuXe.fTrangChu.resources
+C:\Users\use\Desktop\QLThueXe\QLThueXe\obj\Debug\QLThuXe.Login.resources
+C:\Users\use\Desktop\QLThueXe\QLThueXe\obj\Debug\QLThuXe.ThueXe.resources
+C:\Users\use\Desktop\QLThueXe\QLThueXe\obj\Debug\QLThuXe.Properties.Resources.resources
+C:\Users\use\Desktop\QLThueXe\QLThueXe\obj\Debug\QLThuXe.TimXe.resources
+C:\Users\use\Desktop\QLThueXe\QLThueXe\obj\Debug\QLThuXe.csproj.GenerateResource.cache
+C:\Users\use\Desktop\QLThueXe\QLThueXe\obj\Debug\QLThuXe.csproj.CoreCompileInputs.cache
+C:\Users\use\Desktop\QLThueXe\QLThueXe\obj\Debug\QLThuXe.csproj.CopyComplete
+C:\Users\use\Desktop\QLThueXe\QLThueXe\obj\Debug\QLThuXe.exe
+C:\Users\use\Desktop\QLThueXe\QLThueXe\obj\Debug\QLThuXe.pdb
+C:\Users\use\Desktop\QLThueXe\QLThueXe\obj\Debug\QLThuXe.FormQuanLy.resources
+C:\Users\use\Desktop\QLThueXe\QLThueXe\bin\Debug\BUS_QuanLy.exe
+C:\Users\use\Desktop\QLThueXe\QLThueXe\bin\Debug\BUS_QuanLy.pdb
+C:\Users\use\Desktop\QLThueXe\QLThueXe\bin\Debug\BUS_QuanLy.exe.config
+C:\Users\use\Desktop\QLThueXe\QLThueXe\bin\Debug\GUI_QuanLy.exe
+C:\Users\use\Desktop\QLThueXe\QLThueXe\bin\Debug\GUI_QuanLy.pdb
+C:\Users\use\Desktop\QLThueXe\QLThueXe\bin\Debug\GUI_QuanLy.exe.config
+C:\Users\use\Desktop\QLThueXe\QLThueXe\bin\Debug\DAL_QuanLy.exe
+C:\Users\use\Desktop\QLThueXe\QLThueXe\bin\Debug\DTO_QuanLy.exe
+C:\Users\use\Desktop\QLThueXe\QLThueXe\bin\Debug\DAL_QuanLy.pdb
+C:\Users\use\Desktop\QLThueXe\QLThueXe\bin\Debug\DAL_QuanLy.exe.config
+C:\Users\use\Desktop\QLThueXe\QLThueXe\bin\Debug\DTO_QuanLy.pdb
+C:\Users\use\Desktop\QLThueXe\QLThueXe\bin\Debug\DTO_QuanLy.exe.config
+C:\Users\Thang Dang\Desktop\QLThueXe\QLThueXe\bin\Debug\QLThuXe.exe.config
+C:\Users\Thang Dang\Desktop\QLThueXe\QLThueXe\bin\Debug\QLThuXe.exe
+C:\Users\Thang Dang\Desktop\QLThueXe\QLThueXe\bin\Debug\QLThuXe.pdb
+C:\Users\Thang Dang\Desktop\QLThueXe\QLThueXe\bin\Debug\BUS_QuanLy.exe
+C:\Users\Thang Dang\Desktop\QLThueXe\QLThueXe\bin\Debug\GUI_QuanLy.exe
+C:\Users\Thang Dang\Desktop\QLThueXe\QLThueXe\bin\Debug\Guna.UI2.dll
+C:\Users\Thang Dang\Desktop\QLThueXe\QLThueXe\bin\Debug\DAL_QuanLy.exe
+C:\Users\Thang Dang\Desktop\QLThueXe\QLThueXe\bin\Debug\DTO_QuanLy.exe
+C:\Users\Thang Dang\Desktop\QLThueXe\QLThueXe\bin\Debug\BUS_QuanLy.pdb
+C:\Users\Thang Dang\Desktop\QLThueXe\QLThueXe\bin\Debug\BUS_QuanLy.exe.config
+C:\Users\Thang Dang\Desktop\QLThueXe\QLThueXe\bin\Debug\GUI_QuanLy.pdb
+C:\Users\Thang Dang\Desktop\QLThueXe\QLThueXe\bin\Debug\GUI_QuanLy.exe.config
+C:\Users\Thang Dang\Desktop\QLThueXe\QLThueXe\bin\Debug\DAL_QuanLy.pdb
+C:\Users\Thang Dang\Desktop\QLThueXe\QLThueXe\bin\Debug\DAL_QuanLy.exe.config
+C:\Users\Thang Dang\Desktop\QLThueXe\QLThueXe\bin\Debug\DTO_QuanLy.pdb
+C:\Users\Thang Dang\Desktop\QLThueXe\QLThueXe\bin\Debug\DTO_QuanLy.exe.config
+C:\Users\Thang Dang\Desktop\QLThueXe\QLThueXe\obj\Debug\QLThuXe.csproj.AssemblyReference.cache
+C:\Users\Thang Dang\Desktop\QLThueXe\QLThueXe\obj\Debug\QLThuXe.FMain.resources
+C:\Users\Thang Dang\Desktop\QLThueXe\QLThueXe\obj\Debug\QLThuXe.fTrangChu.resources
+C:\Users\Thang Dang\Desktop\QLThueXe\QLThueXe\obj\Debug\QLThuXe.Login.resources
+C:\Users\Thang Dang\Desktop\QLThueXe\QLThueXe\obj\Debug\QLThuXe.FormQuanLy.resources
+C:\Users\Thang Dang\Desktop\QLThueXe\QLThueXe\obj\Debug\QLThuXe.ThueXe.resources
+C:\Users\Thang Dang\Desktop\QLThueXe\QLThueXe\obj\Debug\QLThuXe.Properties.Resources.resources
+C:\Users\Thang Dang\Desktop\QLThueXe\QLThueXe\obj\Debug\QLThuXe.TimXe.resources
+C:\Users\Thang Dang\Desktop\QLThueXe\QLThueXe\obj\Debug\QLThuXe.csproj.GenerateResource.cache
+C:\Users\Thang Dang\Desktop\QLThueXe\QLThueXe\obj\Debug\QLThuXe.csproj.CoreCompileInputs.cache
+C:\Users\Thang Dang\Desktop\QLThueXe\QLThueXe\obj\Debug\QLThuXe.csproj.CopyComplete
+C:\Users\Thang Dang\Desktop\QLThueXe\QLThueXe\obj\Debug\QLThuXe.exe
+C:\Users\Thang Dang\Desktop\QLThueXe\QLThueXe\obj\Debug\QLThuXe.pdb
+C:\Users\Thang Dang\Desktop\Car-rental-management\QLTX\QLThueXe\obj\Debug\QLThuXe.csproj.AssemblyReference.cache
+C:\Users\Thang Dang\Desktop\Car-rental-management\QLTX\QLThueXe\obj\Debug\QLThuXe.FMain.resources
+C:\Users\Thang Dang\Desktop\Car-rental-management\QLTX\QLThueXe\obj\Debug\QLThuXe.fTrangChu.resources
+C:\Users\Thang Dang\Desktop\Car-rental-management\QLTX\QLThueXe\obj\Debug\QLThuXe.Login.resources
+C:\Users\Thang Dang\Desktop\Car-rental-management\QLTX\QLThueXe\obj\Debug\QLThuXe.FormQuanLy.resources
+C:\Users\Thang Dang\Desktop\Car-rental-management\QLTX\QLThueXe\obj\Debug\QLThuXe.ThueXe.resources
+C:\Users\Thang Dang\Desktop\Car-rental-management\QLTX\QLThueXe\obj\Debug\QLThuXe.Properties.Resources.resources
+C:\Users\Thang Dang\Desktop\Car-rental-management\QLTX\QLThueXe\obj\Debug\QLThuXe.TimXe.resources
+C:\Users\Thang Dang\Desktop\Car-rental-management\QLTX\QLThueXe\obj\Debug\QLThuXe.csproj.GenerateResource.cache
+C:\Users\Thang Dang\Desktop\Car-rental-management\QLTX\QLThueXe\obj\Debug\QLThuXe.csproj.CoreCompileInputs.cache
+C:\Users\Thang Dang\Desktop\Car-rental-management\QLTX\QLThueXe\obj\Debug\QLThuXe.exe
+C:\Users\Thang Dang\Desktop\Car-rental-management\QLTX\QLThueXe\obj\Debug\QLThuXe.pdb
+C:\Users\Thang Dang\Desktop\Car-rental-management\QLTX\QLThueXe\bin\Debug\QLThuXe.exe.config
+C:\Users\Thang Dang\Desktop\Car-rental-management\QLTX\QLThueXe\bin\Debug\QLThuXe.exe
+C:\Users\Thang Dang\Desktop\Car-rental-management\QLTX\QLThueXe\bin\Debug\QLThuXe.pdb
+C:\Users\Thang Dang\Desktop\Car-rental-management\QLTX\QLThueXe\bin\Debug\BUS_QLTX.exe
+C:\Users\Thang Dang\Desktop\Car-rental-management\QLTX\QLThueXe\bin\Debug\Guna.UI2.dll
+C:\Users\Thang Dang\Desktop\Car-rental-management\QLTX\QLThueXe\bin\Debug\DAL_QLTX.exe
+C:\Users\Thang Dang\Desktop\Car-rental-management\QLTX\QLThueXe\bin\Debug\DTO_QLTX.exe
+C:\Users\Thang Dang\Desktop\Car-rental-management\QLTX\QLThueXe\bin\Debug\EntityFramework.dll
+C:\Users\Thang Dang\Desktop\Car-rental-management\QLTX\QLThueXe\bin\Debug\BUS_QLTX.pdb
+C:\Users\Thang Dang\Desktop\Car-rental-management\QLTX\QLThueXe\bin\Debug\BUS_QLTX.exe.config
+C:\Users\Thang Dang\Desktop\Car-rental-management\QLTX\QLThueXe\bin\Debug\DAL_QLTX.pdb
+C:\Users\Thang Dang\Desktop\Car-rental-management\QLTX\QLThueXe\bin\Debug\DAL_QLTX.exe.config
+C:\Users\Thang Dang\Desktop\Car-rental-management\QLTX\QLThueXe\bin\Debug\DTO_QLTX.pdb
+C:\Users\Thang Dang\Desktop\Car-rental-management\QLTX\QLThueXe\bin\Debug\DTO_QLTX.exe.config
+C:\Users\Thang Dang\Desktop\Car-rental-management\QLTX\QLThueXe\bin\Debug\EntityFramework.xml
+C:\Users\Thang Dang\Desktop\Car-rental-management\QLTX\QLThueXe\obj\Debug\QLThuXe.csproj.CopyComplete

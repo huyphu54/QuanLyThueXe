@@ -1,0 +1,140 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\OU_HK2_2023-2024\\AI\\QLThueXe\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1872346D-4DC6-4346-83B5-686D8E293616}|QLThuXe.csproj|D:\\OU_HK2_2023-2024\\AI\\QLThueXe\\thuexe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1872346D-4DC6-4346-83B5-686D8E293616}|QLThuXe.csproj|solutionrelative:thuexe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1872346D-4DC6-4346-83B5-686D8E293616}|QLThuXe.csproj|d:\\ou_hk2_2023-2024\\ai\\qlthuexe\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1872346D-4DC6-4346-83B5-686D8E293616}|QLThuXe.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1872346D-4DC6-4346-83B5-686D8E293616}|QLThuXe.csproj|d:\\ou_hk2_2023-2024\\ai\\qlthuexe\\ftrangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1872346D-4DC6-4346-83B5-686D8E293616}|QLThuXe.csproj|solutionrelative:ftrangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1872346D-4DC6-4346-83B5-686D8E293616}|QLThuXe.csproj|d:\\ou_hk2_2023-2024\\ai\\qlthuexe\\ftrangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1872346D-4DC6-4346-83B5-686D8E293616}|QLThuXe.csproj|solutionrelative:ftrangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1872346D-4DC6-4346-83B5-686D8E293616}|QLThuXe.csproj|D:\\OU_HK2_2023-2024\\AI\\QLThueXe\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1872346D-4DC6-4346-83B5-686D8E293616}|QLThuXe.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1872346D-4DC6-4346-83B5-686D8E293616}|QLThuXe.csproj|d:\\ou_hk2_2023-2024\\ai\\qlthuexe\\thuexe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1872346D-4DC6-4346-83B5-686D8E293616}|QLThuXe.csproj|solutionrelative:thuexe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1872346D-4DC6-4346-83B5-686D8E293616}|QLThuXe.csproj|D:\\OU_HK2_2023-2024\\AI\\QLThueXe\\timxe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1872346D-4DC6-4346-83B5-686D8E293616}|QLThuXe.csproj|solutionrelative:timxe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 291,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ThueXe.cs",
+              "DocumentMoniker": "D:\\OU_HK2_2023-2024\\AI\\QLThueXe\\ThueXe.cs",
+              "RelativeDocumentMoniker": "ThueXe.cs",
+              "ToolTip": "D:\\OU_HK2_2023-2024\\AI\\QLThueXe\\ThueXe.cs",
+              "RelativeToolTip": "ThueXe.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T10:43:12.616Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\OU_HK2_2023-2024\\AI\\QLThueXe\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\OU_HK2_2023-2024\\AI\\QLThueXe\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAmwBsAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T06:11:57.327Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "fTrangChu.cs",
+              "DocumentMoniker": "D:\\OU_HK2_2023-2024\\AI\\QLThueXe\\fTrangChu.cs",
+              "RelativeDocumentMoniker": "fTrangChu.cs",
+              "ToolTip": "D:\\OU_HK2_2023-2024\\AI\\QLThueXe\\fTrangChu.cs",
+              "RelativeToolTip": "fTrangChu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T07:02:31.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\OU_HK2_2023-2024\\AI\\QLThueXe\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\OU_HK2_2023-2024\\AI\\QLThueXe\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T06:59:25.876Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ThueXe.cs [Design]",
+              "DocumentMoniker": "D:\\OU_HK2_2023-2024\\AI\\QLThueXe\\ThueXe.cs",
+              "RelativeDocumentMoniker": "ThueXe.cs",
+              "ToolTip": "D:\\OU_HK2_2023-2024\\AI\\QLThueXe\\ThueXe.cs [Design]",
+              "RelativeToolTip": "ThueXe.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T06:53:47.561Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "fTrangChu.cs [Design]",
+              "DocumentMoniker": "D:\\OU_HK2_2023-2024\\AI\\QLThueXe\\fTrangChu.cs",
+              "RelativeDocumentMoniker": "fTrangChu.cs",
+              "ToolTip": "D:\\OU_HK2_2023-2024\\AI\\QLThueXe\\fTrangChu.cs [Design]",
+              "RelativeToolTip": "fTrangChu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T10:48:03.856Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TimXe.cs [Design]",
+              "DocumentMoniker": "D:\\OU_HK2_2023-2024\\AI\\QLThueXe\\TimXe.cs",
+              "RelativeDocumentMoniker": "TimXe.cs",
+              "ToolTip": "D:\\OU_HK2_2023-2024\\AI\\QLThuXe\\TimXe.cs [Design]",
+              "RelativeToolTip": "..\\QLThuXe\\TimXe.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T06:11:59.271Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

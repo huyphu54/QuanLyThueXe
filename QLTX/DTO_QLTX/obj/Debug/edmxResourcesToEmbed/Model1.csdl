@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QLTXModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="ChiTietHopDong">
+    <Key>
+      <PropertyRef Name="Ma" />
+    </Key>
+    <Property Name="Ma" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SoLuong" Type="Int32" />
+    <Property Name="GiamGia" Type="Double" />
+    <Property Name="NgayKhoiHanh" Type="DateTime" Precision="0" />
+    <Property Name="NgayKetThuc" Type="DateTime" Precision="0" />
+    <Property Name="MaXe" Type="Int32" />
+    <Property Name="MaHopDong" Type="Int32" />
+    <NavigationProperty Name="HopDong" Relationship="Self.FK__ChiTietHo__MaHop__5070F446" FromRole="ChiTietHopDong" ToRole="HopDong" />
+    <NavigationProperty Name="Xe" Relationship="Self.FK__ChiTietHop__MaXe__4F7CD00D" FromRole="ChiTietHopDong" ToRole="Xe" />
+  </EntityType>
+  <EntityType Name="HoaDon">
+    <Key>
+      <PropertyRef Name="MaHoaDon" />
+    </Key>
+    <Property Name="MaHoaDon" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TongTien" Type="Double" />
+    <Property Name="LoaiHoaDon" Type="Int32" />
+    <Property Name="MaHopDong" Type="Int32" />
+    <NavigationProperty Name="HopDong" Relationship="Self.FK__HoaDon__MaHopDon__3F466844" FromRole="HoaDon" ToRole="HopDong" />
+  </EntityType>
+  <EntityType Name="HopDong">
+    <Key>
+      <PropertyRef Name="MaHopDong" />
+    </Key>
+    <Property Name="MaHopDong" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NgayLaphopDong" Type="DateTime" Precision="0" />
+    <Property Name="TongTien" Type="Double" />
+    <Property Name="TienDatCoc" Type="Double" />
+    <Property Name="CacDieuKhoan" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="MaNguoiDung" Type="Int32" />
+    <Property Name="MaKhachHang" Type="Int32" />
+    <NavigationProperty Name="ChiTietHopDongs" Relationship="Self.FK__ChiTietHo__MaHop__5070F446" FromRole="HopDong" ToRole="ChiTietHopDong" />
+    <NavigationProperty Name="HoaDons" Relationship="Self.FK__HoaDon__MaHopDon__3F466844" FromRole="HopDong" ToRole="HoaDon" />
+    <NavigationProperty Name="KhachHang" Relationship="Self.FK__HopDong__MaKhach__3C69FB99" FromRole="HopDong" ToRole="KhachHang" />
+    <NavigationProperty Name="NguoiDung" Relationship="Self.FK__HopDong__MaNguoi__3B75D760" FromRole="HopDong" ToRole="NguoiDung" />
+  </EntityType>
+  <EntityType Name="KhachHang">
+    <Key>
+      <PropertyRef Name="MaKhachHang" />
+    </Key>
+    <Property Name="MaKhachHang" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TenKhachHang" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="soCCCD" Type="Double" />
+    <Property Name="SoDienThoai" Type="Int32" />
+    <NavigationProperty Name="HopDongs" Relationship="Self.FK__HopDong__MaKhach__3C69FB99" FromRole="KhachHang" ToRole="HopDong" />
+  </EntityType>
+  <EntityType Name="LoaiXe">
+    <Key>
+      <PropertyRef Name="MaLoaiXe" />
+    </Key>
+    <Property Name="MaLoaiXe" Type="Int32" Nullable="false" />
+    <Property Name="TenLoaiXe" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Xes" Relationship="Self.FK__Xe__MaLoaiXe__440B1D61" FromRole="LoaiXe" ToRole="Xe" />
+  </EntityType>
+  <EntityType Name="NguoiDung">
+    <Key>
+      <PropertyRef Name="MaNguoiDung" />
+    </Key>
+    <Property Name="MaNguoiDung" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TenNguoiDung" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TaiKhoan" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="MatKhau" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LoaiNguoiDung" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="HopDongs" Relationship="Self.FK__HopDong__MaNguoi__3B75D760" FromRole="NguoiDung" ToRole="HopDong" />
+  </EntityType>
+  <EntityType Name="SoXeRa">
+    <Key>
+      <PropertyRef Name="MaXeRa" />
+    </Key>
+    <Property Name="MaXeRa" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NgayRa" Type="DateTime" Precision="0" />
+    <Property Name="ChuThich" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="MaXe" Type="Int32" />
+    <NavigationProperty Name="Xe" Relationship="Self.FK__SoXeRa__MaXe__46E78A0C" FromRole="SoXeRa" ToRole="Xe" />
+  </EntityType>
+  <EntityType Name="SoXeVao">
+    <Key>
+      <PropertyRef Name="MaXeVao" />
+    </Key>
+    <Property Name="MaXeVao" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NgayVao" Type="DateTime" Precision="0" />
+    <Property Name="ChuThich" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="MaXe" Type="Int32" />
+    <NavigationProperty Name="Xe" Relationship="Self.FK__SoXeVao__MaXe__49C3F6B7" FromRole="SoXeVao" ToRole="Xe" />
+  </EntityType>
+  <EntityType Name="SuaChua">
+    <Key>
+      <PropertyRef Name="MaSuaChua" />
+    </Key>
+    <Property Name="MaSuaChua" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NgaySua" Type="DateTime" Precision="0" />
+    <Property Name="TinhTrang" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="ChiPhi" Type="Double" />
+    <Property Name="GhiChu" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="MaXe" Type="Int32" />
+    <NavigationProperty Name="Xe" Relationship="Self.FK__SuaChua__MaXe__4CA06362" FromRole="SuaChua" ToRole="Xe" />
+  </EntityType>
+  <EntityType Name="Xe">
+    <Key>
+      <PropertyRef Name="MaXe" />
+    </Key>
+    <Property Name="MaXe" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BienSo" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="MoTa" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="TinhTrang" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="GiaThue" Type="Double" />
+    <Property Name="MaLoaiXe" Type="Int32" />
+    <NavigationProperty Name="ChiTietHopDongs" Relationship="Self.FK__ChiTietHop__MaXe__4F7CD00D" FromRole="Xe" ToRole="ChiTietHopDong" />
+    <NavigationProperty Name="LoaiXe" Relationship="Self.FK__Xe__MaLoaiXe__440B1D61" FromRole="Xe" ToRole="LoaiXe" />
+    <NavigationProperty Name="SoXeRas" Relationship="Self.FK__SoXeRa__MaXe__46E78A0C" FromRole="Xe" ToRole="SoXeRa" />
+    <NavigationProperty Name="SoXeVaos" Relationship="Self.FK__SoXeVao__MaXe__49C3F6B7" FromRole="Xe" ToRole="SoXeVao" />
+    <NavigationProperty Name="SuaChuas" Relationship="Self.FK__SuaChua__MaXe__4CA06362" FromRole="Xe" ToRole="SuaChua" />
+  </EntityType>
+  <Association Name="FK__ChiTietHo__MaHop__5070F446">
+    <End Role="HopDong" Type="Self.HopDong" Multiplicity="0..1" />
+    <End Role="ChiTietHopDong" Type="Self.ChiTietHopDong" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HopDong">
+        <PropertyRef Name="MaHopDong" />
+      </Principal>
+      <Dependent Role="ChiTietHopDong">
+        <PropertyRef Name="MaHopDong" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ChiTietHop__MaXe__4F7CD00D">
+    <End Role="Xe" Type="Self.Xe" Multiplicity="0..1" />
+    <End Role="ChiTietHopDong" Type="Self.ChiTietHopDong" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Xe">
+        <PropertyRef Name="MaXe" />
+      </Principal>
+      <Dependent Role="ChiTietHopDong">
+        <PropertyRef Name="MaXe" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__HoaDon__MaHopDon__3F466844">
+    <End Role="HopDong" Type="Self.HopDong" Multiplicity="0..1" />
+    <End Role="HoaDon" Type="Self.HoaDon" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HopDong">
+        <PropertyRef Name="MaHopDong" />
+      </Principal>
+      <Dependent Role="HoaDon">
+        <PropertyRef Name="MaHopDong" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__HopDong__MaKhach__3C69FB99">
+    <End Role="KhachHang" Type="Self.KhachHang" Multiplicity="0..1" />
+    <End Role="HopDong" Type="Self.HopDong" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KhachHang">
+        <PropertyRef Name="MaKhachHang" />
+      </Principal>
+      <Dependent Role="HopDong">
+        <PropertyRef Name="MaKhachHang" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__HopDong__MaNguoi__3B75D760">
+    <End Role="NguoiDung" Type="Self.NguoiDung" Multiplicity="0..1" />
+    <End Role="HopDong" Type="Self.HopDong" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NguoiDung">
+        <PropertyRef Name="MaNguoiDung" />
+      </Principal>
+      <Dependent Role="HopDong">
+        <PropertyRef Name="MaNguoiDung" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Xe__MaLoaiXe__440B1D61">
+    <End Role="LoaiXe" Type="Self.LoaiXe" Multiplicity="0..1" />
+    <End Role="Xe" Type="Self.Xe" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LoaiXe">
+        <PropertyRef Name="MaLoaiXe" />
+      </Principal>
+      <Dependent Role="Xe">
+        <PropertyRef Name="MaLoaiXe" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__SoXeRa__MaXe__46E78A0C">
+    <End Role="Xe" Type="Self.Xe" Multiplicity="0..1" />
+    <End Role="SoXeRa" Type="Self.SoXeRa" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Xe">
+        <PropertyRef Name="MaXe" />
+      </Principal>
+      <Dependent Role="SoXeRa">
+        <PropertyRef Name="MaXe" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__SoXeVao__MaXe__49C3F6B7">
+    <End Role="Xe" Type="Self.Xe" Multiplicity="0..1" />
+    <End Role="SoXeVao" Type="Self.SoXeVao" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Xe">
+        <PropertyRef Name="MaXe" />
+      </Principal>
+      <Dependent Role="SoXeVao">
+        <PropertyRef Name="MaXe" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__SuaChua__MaXe__4CA06362">
+    <End Role="Xe" Type="Self.Xe" Multiplicity="0..1" />
+    <End Role="SuaChua" Type="Self.SuaChua" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Xe">
+        <PropertyRef Name="MaXe" />
+      </Principal>
+      <Dependent Role="SuaChua">
+        <PropertyRef Name="MaXe" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="QLTXEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ChiTietHopDongs" EntityType="Self.ChiTietHopDong" />
+    <EntitySet Name="HoaDons" EntityType="Self.HoaDon" />
+    <EntitySet Name="HopDongs" EntityType="Self.HopDong" />
+    <EntitySet Name="KhachHangs" EntityType="Self.KhachHang" />
+    <EntitySet Name="LoaiXes" EntityType="Self.LoaiXe" />
+    <EntitySet Name="NguoiDungs" EntityType="Self.NguoiDung" />
+    <EntitySet Name="SoXeRas" EntityType="Self.SoXeRa" />
+    <EntitySet Name="SoXeVaos" EntityType="Self.SoXeVao" />
+    <EntitySet Name="SuaChuas" EntityType="Self.SuaChua" />
+    <EntitySet Name="Xes" EntityType="Self.Xe" />
+    <AssociationSet Name="FK__ChiTietHo__MaHop__5070F446" Association="Self.FK__ChiTietHo__MaHop__5070F446">
+      <End Role="HopDong" EntitySet="HopDongs" />
+      <End Role="ChiTietHopDong" EntitySet="ChiTietHopDongs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ChiTietHop__MaXe__4F7CD00D" Association="Self.FK__ChiTietHop__MaXe__4F7CD00D">
+      <End Role="Xe" EntitySet="Xes" />
+      <End Role="ChiTietHopDong" EntitySet="ChiTietHopDongs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__HoaDon__MaHopDon__3F466844" Association="Self.FK__HoaDon__MaHopDon__3F466844">
+      <End Role="HopDong" EntitySet="HopDongs" />
+      <End Role="HoaDon" EntitySet="HoaDons" />
+    </AssociationSet>
+    <AssociationSet Name="FK__HopDong__MaKhach__3C69FB99" Association="Self.FK__HopDong__MaKhach__3C69FB99">
+      <End Role="KhachHang" EntitySet="KhachHangs" />
+      <End Role="HopDong" EntitySet="HopDongs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__HopDong__MaNguoi__3B75D760" Association="Self.FK__HopDong__MaNguoi__3B75D760">
+      <End Role="NguoiDung" EntitySet="NguoiDungs" />
+      <End Role="HopDong" EntitySet="HopDongs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Xe__MaLoaiXe__440B1D61" Association="Self.FK__Xe__MaLoaiXe__440B1D61">
+      <End Role="LoaiXe" EntitySet="LoaiXes" />
+      <End Role="Xe" EntitySet="Xes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__SoXeRa__MaXe__46E78A0C" Association="Self.FK__SoXeRa__MaXe__46E78A0C">
+      <End Role="Xe" EntitySet="Xes" />
+      <End Role="SoXeRa" EntitySet="SoXeRas" />
+    </AssociationSet>
+    <AssociationSet Name="FK__SoXeVao__MaXe__49C3F6B7" Association="Self.FK__SoXeVao__MaXe__49C3F6B7">
+      <End Role="Xe" EntitySet="Xes" />
+      <End Role="SoXeVao" EntitySet="SoXeVaos" />
+    </AssociationSet>
+    <AssociationSet Name="FK__SuaChua__MaXe__4CA06362" Association="Self.FK__SuaChua__MaXe__4CA06362">
+      <End Role="Xe" EntitySet="Xes" />
+      <End Role="SuaChua" EntitySet="SuaChuas" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

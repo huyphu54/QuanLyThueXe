@@ -1,0 +1,28 @@
+C:\Users\Thang Dang\Desktop\Car-rental-management\QLTX\DTO_QLTX\bin\Debug\DTO_QLTX.exe.config
+C:\Users\Thang Dang\Desktop\Car-rental-management\QLTX\DTO_QLTX\bin\Debug\DTO_QLTX.exe
+C:\Users\Thang Dang\Desktop\Car-rental-management\QLTX\DTO_QLTX\bin\Debug\DTO_QLTX.pdb
+C:\Users\Thang Dang\Desktop\Car-rental-management\QLTX\DTO_QLTX\bin\Debug\EntityFramework.dll
+C:\Users\Thang Dang\Desktop\Car-rental-management\QLTX\DTO_QLTX\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Thang Dang\Desktop\Car-rental-management\QLTX\DTO_QLTX\bin\Debug\EntityFramework.xml
+C:\Users\Thang Dang\Desktop\Car-rental-management\QLTX\DTO_QLTX\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Thang Dang\Desktop\Car-rental-management\QLTX\DTO_QLTX\obj\Debug\DTO_QLTX.csproj.AssemblyReference.cache
+C:\Users\Thang Dang\Desktop\Car-rental-management\QLTX\DTO_QLTX\obj\Debug\DTO_QLTX.Properties.Resources.resources
+C:\Users\Thang Dang\Desktop\Car-rental-management\QLTX\DTO_QLTX\obj\Debug\DTO_QLTX.csproj.GenerateResource.cache
+C:\Users\Thang Dang\Desktop\Car-rental-management\QLTX\DTO_QLTX\obj\Debug\DTO_QLTX.csproj.CoreCompileInputs.cache
+C:\Users\Thang Dang\Desktop\Car-rental-management\QLTX\DTO_QLTX\obj\Debug\DTO_QLTX.csproj.CopyComplete
+C:\Users\Thang Dang\Desktop\Car-rental-management\QLTX\DTO_QLTX\obj\Debug\DTO_QLTX.exe
+C:\Users\Thang Dang\Desktop\Car-rental-management\QLTX\DTO_QLTX\obj\Debug\DTO_QLTX.pdb
+G:\Car-rental-management\QLTX\DTO_QLTX\bin\Debug\DTO_QLTX.exe.config
+G:\Car-rental-management\QLTX\DTO_QLTX\bin\Debug\DTO_QLTX.exe
+G:\Car-rental-management\QLTX\DTO_QLTX\bin\Debug\DTO_QLTX.pdb
+G:\Car-rental-management\QLTX\DTO_QLTX\bin\Debug\EntityFramework.dll
+G:\Car-rental-management\QLTX\DTO_QLTX\bin\Debug\EntityFramework.SqlServer.dll
+G:\Car-rental-management\QLTX\DTO_QLTX\bin\Debug\EntityFramework.xml
+G:\Car-rental-management\QLTX\DTO_QLTX\bin\Debug\EntityFramework.SqlServer.xml
+G:\Car-rental-management\QLTX\DTO_QLTX\obj\Debug\DTO_QLTX.csproj.AssemblyReference.cache
+G:\Car-rental-management\QLTX\DTO_QLTX\obj\Debug\DTO_QLTX.Properties.Resources.resources
+G:\Car-rental-management\QLTX\DTO_QLTX\obj\Debug\DTO_QLTX.csproj.GenerateResource.cache
+G:\Car-rental-management\QLTX\DTO_QLTX\obj\Debug\DTO_QLTX.csproj.CoreCompileInputs.cache
+G:\Car-rental-management\QLTX\DTO_QLTX\obj\Debug\DTO_QLTX.csproj.CopyComplete
+G:\Car-rental-management\QLTX\DTO_QLTX\obj\Debug\DTO_QLTX.exe
+G:\Car-rental-management\QLTX\DTO_QLTX\obj\Debug\DTO_QLTX.pdb

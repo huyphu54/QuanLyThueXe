@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QLTXModelStoreContainer" CdmEntityContainer="QLTXEntities">
+    <EntitySetMapping Name="ChiTietHopDongs">
+      <EntityTypeMapping TypeName="QLTXModel.ChiTietHopDong">
+        <MappingFragment StoreEntitySet="ChiTietHopDong">
+          <ScalarProperty Name="Ma" ColumnName="Ma" />
+          <ScalarProperty Name="SoLuong" ColumnName="SoLuong" />
+          <ScalarProperty Name="GiamGia" ColumnName="GiamGia" />
+          <ScalarProperty Name="NgayKhoiHanh" ColumnName="NgayKhoiHanh" />
+          <ScalarProperty Name="NgayKetThuc" ColumnName="NgayKetThuc" />
+          <ScalarProperty Name="MaXe" ColumnName="MaXe" />
+          <ScalarProperty Name="MaHopDong" ColumnName="MaHopDong" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HoaDons">
+      <EntityTypeMapping TypeName="QLTXModel.HoaDon">
+        <MappingFragment StoreEntitySet="HoaDon">
+          <ScalarProperty Name="MaHoaDon" ColumnName="MaHoaDon" />
+          <ScalarProperty Name="TongTien" ColumnName="TongTien" />
+          <ScalarProperty Name="LoaiHoaDon" ColumnName="LoaiHoaDon" />
+          <ScalarProperty Name="MaHopDong" ColumnName="MaHopDong" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HopDongs">
+      <EntityTypeMapping TypeName="QLTXModel.HopDong">
+        <MappingFragment StoreEntitySet="HopDong">
+          <ScalarProperty Name="MaHopDong" ColumnName="MaHopDong" />
+          <ScalarProperty Name="NgayLaphopDong" ColumnName="NgayLaphopDong" />
+          <ScalarProperty Name="TongTien" ColumnName="TongTien" />
+          <ScalarProperty Name="TienDatCoc" ColumnName="TienDatCoc" />
+          <ScalarProperty Name="CacDieuKhoan" ColumnName="CacDieuKhoan" />
+          <ScalarProperty Name="MaNguoiDung" ColumnName="MaNguoiDung" />
+          <ScalarProperty Name="MaKhachHang" ColumnName="MaKhachHang" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KhachHangs">
+      <EntityTypeMapping TypeName="QLTXModel.KhachHang">
+        <MappingFragment StoreEntitySet="KhachHang">
+          <ScalarProperty Name="MaKhachHang" ColumnName="MaKhachHang" />
+          <ScalarProperty Name="TenKhachHang" ColumnName="TenKhachHang" />
+          <ScalarProperty Name="soCCCD" ColumnName="soCCCD" />
+          <ScalarProperty Name="SoDienThoai" ColumnName="SoDienThoai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LoaiXes">
+      <EntityTypeMapping TypeName="QLTXModel.LoaiXe">
+        <MappingFragment StoreEntitySet="LoaiXe">
+          <ScalarProperty Name="MaLoaiXe" ColumnName="MaLoaiXe" />
+          <ScalarProperty Name="TenLoaiXe" ColumnName="TenLoaiXe" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NguoiDungs">
+      <EntityTypeMapping TypeName="QLTXModel.NguoiDung">
+        <MappingFragment StoreEntitySet="NguoiDung">
+          <ScalarProperty Name="MaNguoiDung" ColumnName="MaNguoiDung" />
+          <ScalarProperty Name="TenNguoiDung" ColumnName="TenNguoiDung" />
+          <ScalarProperty Name="TaiKhoan" ColumnName="TaiKhoan" />
+          <ScalarProperty Name="MatKhau" ColumnName="MatKhau" />
+          <ScalarProperty Name="LoaiNguoiDung" ColumnName="LoaiNguoiDung" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SoXeRas">
+      <EntityTypeMapping TypeName="QLTXModel.SoXeRa">
+        <MappingFragment StoreEntitySet="SoXeRa">
+          <ScalarProperty Name="MaXeRa" ColumnName="MaXeRa" />
+          <ScalarProperty Name="NgayRa" ColumnName="NgayRa" />
+          <ScalarProperty Name="ChuThich" ColumnName="ChuThich" />
+          <ScalarProperty Name="MaXe" ColumnName="MaXe" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SoXeVaos">
+      <EntityTypeMapping TypeName="QLTXModel.SoXeVao">
+        <MappingFragment StoreEntitySet="SoXeVao">
+          <ScalarProperty Name="MaXeVao" ColumnName="MaXeVao" />
+          <ScalarProperty Name="NgayVao" ColumnName="NgayVao" />
+          <ScalarProperty Name="ChuThich" ColumnName="ChuThich" />
+          <ScalarProperty Name="MaXe" ColumnName="MaXe" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SuaChuas">
+      <EntityTypeMapping TypeName="QLTXModel.SuaChua">
+        <MappingFragment StoreEntitySet="SuaChua">
+          <ScalarProperty Name="MaSuaChua" ColumnName="MaSuaChua" />
+          <ScalarProperty Name="NgaySua" ColumnName="NgaySua" />
+          <ScalarProperty Name="TinhTrang" ColumnName="TinhTrang" />
+          <ScalarProperty Name="ChiPhi" ColumnName="ChiPhi" />
+          <ScalarProperty Name="GhiChu" ColumnName="GhiChu" />
+          <ScalarProperty Name="MaXe" ColumnName="MaXe" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Xes">
+      <EntityTypeMapping TypeName="QLTXModel.Xe">
+        <MappingFragment StoreEntitySet="Xe">
+          <ScalarProperty Name="MaXe" ColumnName="MaXe" />
+          <ScalarProperty Name="BienSo" ColumnName="BienSo" />
+          <ScalarProperty Name="MoTa" ColumnName="MoTa" />
+          <ScalarProperty Name="TinhTrang" ColumnName="TinhTrang" />
+          <ScalarProperty Name="GiaThue" ColumnName="GiaThue" />
+          <ScalarProperty Name="MaLoaiXe" ColumnName="MaLoaiXe" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
